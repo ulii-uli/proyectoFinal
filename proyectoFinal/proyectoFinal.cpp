@@ -23,7 +23,7 @@ int main()
     float kil ,killC,paqe;
 
 
-    cout <<"\t\t\tbienvenido GODADDY  ño :3? ñ \n";
+    cout <<"\t\t\tbienvenido GODADDY :3  \n";
     cout <<"\t\t\thola bienvenidos :3 \n\n ";
 
             while (opc != 5)
@@ -60,6 +60,7 @@ int main()
             {
                                 precio = 600;
 
+                                cout << "\t\t\t *********  TICKET****** \n\n";
                                 cout << "\t\t\t  usted escogio los pantalones negros \n";
                                 cout << "\t\t\t  el precio es de $600 pesos \n";
                                 cout << "\t\t\t  cuantos desea comprar \n ";
@@ -83,6 +84,7 @@ int main()
 
         {
                             precio = 750;
+                            cout << "\t\t\t *********  TICKET****** \n\n";
                             cout << "\t\t\t usted escogio la secion de pantalones gris \n";
                             cout << "\t\t\t el precio es de $750 pesos por pieza \n";
                             cout << "\t\t\t cuantos desea comprar \n ";
@@ -99,6 +101,7 @@ int main()
 
         {
                             precio = 590;
+                            cout << "\t\t\t *********  TICKET****** \n\n";
                             cout << "\t\t\t usted escogio la secion de pantalones color rojo \n";
                             cout << "\t\t\t el precio es de $590 pesos por pieza \n";
                             cout << "\t\t\t cuantos desea comprar \n";
@@ -116,6 +119,7 @@ int main()
 
         {
                             precio = 900;
+                            cout << "\t\t\t *********  TICKET****** \n\n";
                             cout << "\t\t\t usted escogio la secion de pantalones auzl marino \n";
                             cout << "\t\t\t el precio es de $900 pesos por pieza \n";
                             cout << "\t\t\t cuantos desea comprar \n";
@@ -132,6 +136,7 @@ int main()
 
         {
                             precio = 800;
+                            cout << "\t\t\t *********  TICKET****** \n\n";
                             cout << "\t\t\t usted escogio la secion de pantalones de color cadfe\n";
                             cout << "\t\t\t el precio es de $800 esos por pieza \n";
                             cout << "\t\t\t cuantos desea comprar \n ";
@@ -166,6 +171,7 @@ int main()
                             cout << "hole";
            
                             precio = 865.60;
+                            cout << "\t\t\t *********  TICKET****** \n\n";
                             cout << "\t\t\t  usted escogio la secion de camisas \n";
                             cout << "\t\t\t  el precio es de $865.0 pesos por pieza \n";
                             cout << "\t\t\t  cuantos desea comprar \n ";
@@ -183,6 +189,7 @@ int main()
             else if (cami == 2)
             {
                                 precio = 450.99;
+                                cout << "\t\t\t *********  TICKET****** \n\n";
                                 cout << "\t\t\t  usted escogio la secion de camisas \n";
                                 cout << "\t\t\t  usted escogio camisas blanca lisa\n\n";
                                 cout << "\t\t\t  el precio es de $800.0 pesos por pieza\n";
@@ -198,6 +205,7 @@ int main()
             else if (cami == 3)
                     {
                                 precio = 570.60;
+                                cout << "\t\t\t *********  TICKET****** \n\n";
                                 cout << "\t\t\t  usted escogio la secion de camisas \n";
                                 cout << "\t\t\t  camisas de cuadros talla chica \n";
                                 cout << "\t\t\t  usted escogio camisas blanca lisa\n";
@@ -214,6 +222,7 @@ int main()
             else if (cami == 4)
             {
                                 precio = 250.00;
+                                cout << "\t\t\t *********  TICKET****** \n\n";
                                 cout << "\t\t\t usted escogio la secion de camisas \n";
                                 cout << "\t\t\t usted escogio camisas blanca lisa\n";
                                 cout << "\t\t\t el precio es de $250.00 pesos por pieza\n";
@@ -229,6 +238,7 @@ int main()
             else if (cami == 5)
             {
                                 precio = 290.50;
+                                cout << "\t\t\t *********  TICKET****** \n\n";
                                 cout << "\t\t\t   usted escogio la secion de camisas \n";
                                 cout << "\t\t\t   camisas de niño \n\n";
                                 cout << "\t\t\t   el precio es de $290.50 pesos por pieza\n";
@@ -261,6 +271,7 @@ int main()
             if (playe == 1)
             {
                             precio = 340.98;
+                            cout << "\t\t\t *********  TICKET****** \n\n";
                             cout << "\t\t\t playera blanca con logo  chica. \n";
                             cout << "\t\t\t el precio es de $ 340.98 pesos por pieza \n";
                             cout << "\t\t\t cuantos desea comprar \n ";
@@ -277,6 +288,7 @@ int main()
             else if (playe == 2)
             {
                             precio = 280.99;
+                            cout << "\t\t\t *********  TICKET****** \n\n";
                             cout << "\t\t\t playera roja y blanco de cuello redondo  \n";              
                             cout << "\t\t\t el precio es de $ 280.99 pesos por pieza\n";
                             cout << "\t\t\t cuantos desea comprar \n";
@@ -291,6 +303,7 @@ int main()
             else if (playe == 3)
             {
                             precio = 670.60;
+                            cout << "\t\t\t *********  TICKET****** \n\n";
                             cout << "\t\t\t playera grande de color amariillo  \n";
                             cout << "\t\t\t player de childrens \n";
                             cout << "\t\t\t el precio es de $ 670.60 pesos por pieza\n";
@@ -306,6 +319,7 @@ int main()
             else if (playe  == 4)
             {
                             precio = 490.70;
+                            cout << "\t\t\t *********  TICKET****** \n\n";
                             cout << "\t\t\t playera con mangas larga de color blanco \n";
                             cout << "\t\t\t el precio es de $ 490.70 pesos por pieza\n";
                             cout << "\t\t\t cuantos desea comprar \n ";
@@ -320,7 +334,8 @@ int main()
             else if (playe == 5)
             {
                             precio = 190.50;
-                            cout << "\t\t\t ❤❤❤❤❤-playera  de tirantes ❤❤❤❤❤     \n";
+                            cout << "\t\t\t *********  TICKET****** \n\n";
+                            cout << "\t\t\t -playera  de tirantes    \n";
                             cout << "\t\t\t el precio es de $ 190.50 pesos por pieza\n";
                             cout << "\t\t\t cuantos desea comprar \n ";
                             cin >> numeroDp;
