@@ -1,6 +1,7 @@
                                     // proyectoFinal.cpp : universidad tecnologica del valle de toluca 
                                       //gabriel ulises martinez gutierrez 
                                     //Grupo DDM-13
+//Grupo DDM-13
 
 
 #include<iostream>
