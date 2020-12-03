@@ -17,7 +17,7 @@ int main()
     setlocale(LC_CTYPE, "Spanish");
 
 
-    int opc=0, pantH=0, numeroDp, cami, camisas;
+    int opc=0, pantH=0, numeroDp, cami, camisas,playe;
     double precio, total, subT,iva;
 
 
@@ -137,15 +137,15 @@ int main()
         else if (opc == 2) //la segunda opcion del submenu
 
         {
-            cout << "\t\t\t usted a escogido la secion de camisas :) \n";
-            cout << "\t\t\t 1.-camisa de bestir negra..........$$ 865.60 \n";
-            cout << "\t\t\t 2.-camisa de color blanco lisa.....$$ 450.99 \n";
-            cout << "\t\t\t 3.-camisas de cuadros talla chica..$$ 570.60 \n";
-            cout << "\t\t\t 4.-camisas sin mangas chicas.......$$ 250.00 \n";
-            cout << "\t\t\t 5.-camisas de niño.................$$ 150.50 \n";
-            cout << "\t\t\t Porfavor escoga su opcion de compra... \n" ;
-            cin >> cami;
-            cout << "´************************************************************\n";
+                            cout << "\t\t\t usted a escogido la secion de camisas :) \n";
+                            cout << "\t\t\t 1.-camisa de bestir negra..........$$ 865.60 \n";
+                            cout << "\t\t\t 2.-camisa de color blanco lisa.....$$ 450.99 \n";
+                            cout << "\t\t\t 3.-camisas de cuadros talla chica..$$ 570.60 \n";
+                            cout << "\t\t\t 4.-camisas sin mangas chicas.......$$ 250.00 \n";
+                            cout << "\t\t\t 5.-camisas de niño.................$$ 150.50 \n";
+                            cout << "\t\t\t Porfavor escoga su opcion de compra... \n" ;
+                            cin >> cami;
+                            cout << "´************************************************************\n";
             if (cami == 1)
             {
                             cout << "hole";
@@ -166,33 +166,33 @@ int main()
             }
             else if (cami == 2)
             {
-                        precio = 450.99;
-                        cout << "\t\t\t  usted escogio la secion de camisas \n\n";
-                        cout << "\t\t\t  usted escogio camisas blanca lisa\n\n";
-                        cout << "\t\t\t  el precio es de $800.0 pesos por pieza\n\n";
-                        cout << "\t\t\t  cuantos desea comprar \n\n ";
-                        cin >> numeroDp;
-                        total = numeroDp * precio;
-                        cout << "\t\t\t  el total que debe de pagar es de:$$" << total << endl;
-                        iva = total * 0.9;
-                        cout << "\t\t\t   el total con el porcentaje del iva del 0.9% es del:  " << fixed << setprecision(2) << iva << endl;
-                        cout << "\t\t\t  ************************************************************\n";
+                                precio = 450.99;
+                                cout << "\t\t\t  usted escogio la secion de camisas \n\n";
+                                cout << "\t\t\t  usted escogio camisas blanca lisa\n\n";
+                                cout << "\t\t\t  el precio es de $800.0 pesos por pieza\n\n";
+                                cout << "\t\t\t  cuantos desea comprar \n\n ";
+                                cin >> numeroDp;
+                                total = numeroDp * precio;
+                                cout << "\t\t\t  el total que debe de pagar es de:$$" << total << endl;
+                                iva = total * 0.9;
+                                cout << "\t\t\t   el total con el porcentaje del iva del 0.9% es del:  " << fixed << setprecision(2) << iva << endl;
+                                cout << "\t\t\t  ************************************************************\n";
             }
             else if (cami == 3)
-            {
-                        precio = 570.60;
-                        cout << "\t\t\t  usted escogio la secion de camisas \n\n";
-                        cout << "\t\t\t  camisas de cuadros talla chica \n\n";
-                        cout << "\t\t\t  usted escogio camisas blanca lisa\n\n";
-                        cout << "\t\t\t  el precio es de $570.60 pesos por pieza\n\n";
-                        cout << "\t\t\t  cuantos desea comprar \n\n ";
-                        cin >> numeroDp;
-                        total = numeroDp * precio;
-                        cout << "\t\t\t  el total que debe de pagar es de:$$" << total << endl;
-                        iva = total * 0.9;
-                        cout << "\t\t\t   el total con el porcentaje del iva del 0.9% es del:  " << fixed << setprecision(2) << iva << endl;
-                        cout << "\t\t\t ************************************************************\n";
-            }
+                    {
+                                precio = 570.60;
+                                cout << "\t\t\t  usted escogio la secion de camisas \n\n";
+                                cout << "\t\t\t  camisas de cuadros talla chica \n\n";
+                                cout << "\t\t\t  usted escogio camisas blanca lisa\n\n";
+                                cout << "\t\t\t  el precio es de $570.60 pesos por pieza\n\n";
+                                cout << "\t\t\t  cuantos desea comprar \n\n ";
+                                cin >> numeroDp;
+                                total = numeroDp * precio;
+                                cout << "\t\t\t  el total que debe de pagar es de:$$" << total << endl;
+                                iva = total * 0.9;
+                                cout << "\t\t\t   el total con el porcentaje del iva del 0.9% es del:  " << fixed << setprecision(2) << iva << endl;
+                                cout << "\t\t\t ************************************************************\n";
+                    }
             else if (cami == 4)
             {
                                 precio = 250.00;
@@ -209,18 +209,18 @@ int main()
             }
             else if (cami == 5)
             {
-                        precio = 290.50;
-                        cout << "\t\t\t   usted escogio la secion de camisas \n\n";
-                        cout << "\t\t\t   camisas de niño \n\n";
-                        cout << "\t\t\t   el precio es de $290.50 pesos por pieza\n\n";
-                        cout << "\t\t\t   cuantos desea comprar \n\n ";
-                        cin >> numeroDp;
-                        total = numeroDp * precio;
-                        cout << "\t\t\t   el total que debe de pagar es de:$$" << total << endl;
-                        iva = total * 0.9;
-                        cout << "\t\t\t   el total con el porcentaje del iva del 0.9% es del:  " << fixed << setprecision(2) << iva << endl;
-                        cout << "\t\t  *********+*****************************************\n\n";
-                        cout << "\t\t  *********+*****************************************\n\n";
+                                precio = 290.50;
+                                cout << "\t\t\t   usted escogio la secion de camisas \n\n";
+                                cout << "\t\t\t   camisas de niño \n\n";
+                                cout << "\t\t\t   el precio es de $290.50 pesos por pieza\n\n";
+                                cout << "\t\t\t   cuantos desea comprar \n\n ";
+                                cin >> numeroDp;
+                                total = numeroDp * precio;
+                                cout << "\t\t\t   el total que debe de pagar es de:$$" << total << endl;
+                                iva = total * 0.9;
+                                cout << "\t\t\t   el total con el porcentaje del iva del 0.9% es del:  " << fixed << setprecision(2) << iva << endl;
+                                cout << "\t\t  *********+*****************************************\n\n";
+                     
             }
 
 
@@ -229,75 +229,82 @@ int main()
         else if (opc == 3) //tercer opcion del menu
 
         {
-            cout << "usted a escogido la secion de camisas :) \n";
-            cout << "1.-camisa de bestir negra..........$$ 865.60 \n";
-            cout << "2.-camisa de color blanco lisa.....$$ 450.99 \n";
-            cout << "3.-camisas de cuadros talla chica..$$ 570.60 \n";
-            cout << "4.-camisas sin mangas chicas.......$$ 250.00 \n";
-            cout << "5.-camisas de niño.................$$ 150.50 \n";
-            cout << "Porfavor escoga su opcion de compra...";
-            cin >> cami;
-            cout << "´************************************************************\n";
-            if (cami == 1)
+                            cout << "\t\t\t usted a escogido la secion de playeras \n";
+                            cout << "\t\t\t  1.-playera blanca con logo  chica...................$$ 340.98 \n";
+                            cout << "\t\t\t  2.-playera roja y blanco de cuello redondo..........$$ 280.99 \n";
+                            cout << "\t\t\t  3.-playera grande de color amariillo................$$ 670.60 \n";
+                            cout << "\t\t\t  4.-playera con mangas larga de color blanco.........$$ 490.70 \n";
+                            cout << "\t\t\t  5.-playera  de tirantes.............................$$ 190.50 \n";
+                            cout << "\t\t\t  Porfavor escoga su opcion de compra...\n";
+                            cin >> playe;
+                            cout << "´************************************************************\n";
+            if (playe == 1)
             {
-                precio = 865.60;
-                cout << "usted escogio la secion de camisas \n\n";
-                cout << "el precio es de $865.0 pesos por pieza \n\n";
-                cout << "cuantos desea comprar \n\n ";
-                cin >> numeroDp;
-                total = numeroDp * precio;
-                cout << "\t el total que debe de pagar es de:$$" << total << endl;
-                cout << "´************************************************************\n";
+                            precio = 340.98;
+                            cout << "\t\t\t playera blanca con logo  chica. \n\n";
+                            cout << "\t\t\t el precio es de $ 340.98 pesos por pieza \n\n";
+                            cout << "\t\t\t cuantos desea comprar \n\n ";
+                            cin >> numeroDp;
+                            total = numeroDp * precio;
+                            cout << "\t\t\t  el total que debe de pagar es de:$$" << total << endl;
+                            iva = total * 0.9;
+                            cout << "\t\t\t   el total con el porcentaje del iva del 0.9% es del:  " << fixed << setprecision(2) << iva << endl;
+                            cout << "\t\t\t  ************************************************************\n";
+                            
 
             }
-            else if (cami == 2)
+            else if (playe == 2)
             {
-                precio = 450.99;
-                cout << "usted escogio la secion de camisas \n\n";
-                cout << "usted escogio camisas blanca lisa\n\n";
-                cout << "el precio es de $800.0 pesos por pieza\n\n";
-                cout << "cuantos desea comprar \n\n ";
-                cin >> numeroDp;
-                total = numeroDp * precio;
-                cout << "\t el total que debe de pagar es de:$$" << total << endl;
-                cout << "´************************************************************\n";
+                            precio = 280.99;
+                            cout << "\t\t\t playera roja y blanco de cuello redondo  \n\n";              
+                            cout << "\t\t\t el precio es de $ 280.99 pesos por pieza\n\n";
+                            cout << "\t\t\t cuantos desea comprar \n\n ";
+                            cin >> numeroDp;
+                            total = numeroDp * precio;
+                            cout << "\t\t\t el total que debe de pagar es de:$$" << total << endl;
+                            iva = total * 0.9;
+                            cout << "\t\t\t   el total con el porcentaje del iva del 0.9% es del:  " << fixed << setprecision(2) << iva << endl;
+                            cout << "************************************************************\n";
             }
-            else if (cami == 3)
+            else if (playe == 3)
             {
-                precio = 570.60;
-                cout << "usted escogio la secion de camisas \n\n";
-                cout << "camisas de cuadros talla chica \n\n";
-                cout << "usted escogio camisas blanca lisa\n\n";
-                cout << "el precio es de $570.60 pesos por pieza\n\n";
-                cout << "cuantos desea comprar \n\n ";
-                cin >> numeroDp;
-                total = numeroDp * precio;
-                cout << "\t el total que debe de pagar es de:$$" << total << endl;
-                cout << "´************************************************************\n";
+                            precio = 670.60;
+                            cout << "\t\t\t playera grande de color amariillo  \n\n";
+                            cout << "\t\t\t player de childrens \n\n";
+                            cout << "\t\t\t el precio es de $ 670.60 pesos por pieza\n\n";
+                            cout << "\t\t\t cuantos desea comprar \n\n ";
+                            cin >> numeroDp;
+                            total = numeroDp * precio;
+                            cout << "\t\t\t el total que debe de pagar es de:$$" << total << endl;
+                            iva = total * 0.9;
+                            cout << "\t\t\t   el total con el porcentaje del iva del 0.9% es del:  " << fixed << setprecision(2) << iva << endl;
+                            cout << "´************************************************************\n";
             }
-            else if (cami == 4)
+            else if (playe  == 4)
             {
-                precio = 250.00;
-                cout << "usted escogio la secion de camisas \n\n";
-                cout << "usted escogio camisas blanca lisa\n\n";
-                cout << "el precio es de $250.00 pesos por pieza\n\n";
-                cout << "cuantos desea comprar \n\n ";
-                cin >> numeroDp;
-                total = numeroDp * precio;
-                cout << "\t el total que debe de pagar es de:$$" << total << endl;
-                cout << "´************************************************************\n";
+                            precio = 490.70;
+                            cout << "\t\t\t playera con mangas larga de color blanco \n\n";
+                            cout << "\t\t\t el precio es de $ 490.70 pesos por pieza\n\n";
+                            cout << "\t\t\t cuantos desea comprar \n\n ";
+                            cin >> numeroDp;
+                            total = numeroDp * precio;
+                            cout << "\t\t\t el total que debe de pagar es de:$$" << total << endl;
+                            iva = total * 0.9;
+                            cout << "\t\t\t   el total con el porcentaje del iva del 0.9% es del:  " << fixed << setprecision(2) << iva << endl;
+                            cout << "´************************************************************\n";
             }
-            else if (cami == 5)
+            else if (playe == 5)
             {
-                precio = 150.50;
-                cout << "usted escogio la secion de camisas \n\n";
-                cout << "camisas de niño \n\n";
-                cout << "el precio es de $150.50 pesos por pieza\n\n";
-                cout << "cuantos desea comprar \n\n ";
-                cin >> numeroDp;
-                total = numeroDp * precio;
-                cout << "\t el total que debe de pagar es de:$$" << total << endl;
-                cout << "´************************************************************\n";
+                            precio = 190.50;
+                            cout << "\t\t\t ❤❤❤❤❤-playera  de tirantes ❤❤❤❤❤     \n\n";
+                            cout << "\t\t\t el precio es de $ 190.50 pesos por pieza\n\n";
+                            cout << "\t\t\t cuantos desea comprar \n\n ";
+                            cin >> numeroDp;
+                            total = numeroDp * precio;
+                            cout << "\t\t\t el total que debe de pagar es de:$$" << total << endl;
+                            iva = total * 0.9;
+                            cout << "\t\t\t   el total con el porcentaje del iva del 0.9% es del:  " << fixed << setprecision(2) << iva << endl;
+                            cout << "´************************************************************\n";
             }
         }
 
@@ -363,7 +370,7 @@ int main()
                 cin >> numeroDp;
                 total = numeroDp * precio;
                 cout << "\t el total que debe de pagar es de:$$" << total << endl;
-                cout << "´************************************************************\n";
+                cout << "************************************************************\n";
             }
             else if (cami == 5)
             {
