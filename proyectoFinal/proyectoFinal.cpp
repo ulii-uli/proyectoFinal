@@ -220,6 +220,7 @@ int main()
                         iva = total * 0.9;
                         cout << "\t\t\t   el total con el porcentaje del iva del 0.9% es del:  " << fixed << setprecision(2) << iva << endl;
                         cout << "\t\t  *********+*****************************************\n\n";
+                        cout << "\t\t  *********+*****************************************\n\n";
             }
 
 
