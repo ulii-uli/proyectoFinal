@@ -36,7 +36,8 @@ int main()
                             cout << "\t\t\t  2.- Camisas de vestir\n ";
                             cout << "\t\t\t  3.- playera de hombre y niño \n";
                             cout << "\t\t\t  4.- servicios de paqueteria :) \n";
-                            cout << "\t\t\t  5.- salir \n";
+                            cout << "\t\t\t  5.- informacion \n";
+                            cout << "\t\t\t  6.- salir \n";
                             cout << "\t\t\t  esoga su opcionnes \n";
                             cin >> opc;
 
@@ -438,8 +439,17 @@ int main()
                             cout << "´****************************************************************\n";
             
         }
-    }
+        else if (opc == 5)
+                {
+                cout << "\t\t\t vr 1.00.0\n";
+                cout << "\t\t\t contacto de soporte ulixexulixex@gmail.com\n";
+                cout << "\t\t\t Telefono 7291540xxx \n";
+                cout << "\t\t\t exelente dia!! \n";
 
+                }
+
+    }
+     
    
 
 
