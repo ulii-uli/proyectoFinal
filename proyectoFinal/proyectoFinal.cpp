@@ -23,8 +23,8 @@ int main()
     float kil ,killC,paqe;
 
 
-    cout <<"\t bienvenido GODADDY  ño :3? ñ \n";
-    cout <<"hola bebe :3 \n\n ";
+    cout <<"\t\t\tbienvenido GODADDY  ño :3? ñ \n";
+    cout <<"\t\t\thola bienvenidos :3 \n\n ";
 
             while (opc != 5)
             {
